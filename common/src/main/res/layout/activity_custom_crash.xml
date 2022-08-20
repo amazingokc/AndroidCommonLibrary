@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.CustomCrashActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_crash" />
+
+    <TextView
+        android:id="@+id/tv_copy_detail_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:text="点击复制详细信息"
+        android:textColor="@color/blue2"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tv_error_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:maxLines="14"
+        android:textColor="@color/text_color333"
+        android:textSize="14dp"
+        tools:text="崩溃信息" />
+
+    <TextView
+        android:id="@+id/tv_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_color_primary_bg"
+        android:gravity="center"
+        android:paddingStart="14dp"
+        android:paddingTop="4dp"
+        android:paddingEnd="14dp"
+        android:paddingBottom="4dp"
+        android:text="重启应用"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+</LinearLayout>

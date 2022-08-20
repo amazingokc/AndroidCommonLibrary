@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--    <color name="colorPrimary_runde">#fe992a</color>-->
+    <!--    <color name="colorPrimaryDark1">#16fe992a</color>-->
+    <!--    <color name="endColorPrimary">#ffa84a</color>-->
+    <!--    <color name="a32colorprimary">#32fe992a</color>-->
+    <!--    <color name="colorPrimary2">#fe6000</color>-->
+    <!--    <color name="colorPrimary3">#FF8400</color>-->
+    <!--    <color name="colorPrimary4">#FF6C00</color>-->
+    <!--    <color name="colorPrimaryTint">#F5C167</color>-->
+    <!--    <color name="colorPrimaryTint2">#ffead3</color>-->
+    <!--    <color name="color_60">#99fe992a</color> //60透明度-->
+    <!--    <color name="color_50">#80fe992a</color> //50透明度-->
+    <!--    <color name="color_40">#66fe992a</color> //40透明度-->
+    <!--    <color name="color_30">#66fe992a</color> //30透明度-->
+    <!--    <color name="color_20">#33fe992a</color> //20透明度-->
+    <!--    <color name="color_10">#1Afe992a</color> //10透明度-->
+
+    <color name="text_60">#99333333</color>
+    //60透明度
+    <color name="text_50">#80333333</color>
+    //50透明度
+    <color name="text_10">#1A333333</color>
+    //10透明度
+    <color name="text_20">#33333333</color>
+    //20透明度
+    <color name="text_30">#66333333</color>
+    //30透明度
+    <color name="text_40">#66333333</color>
+    //40透明度
+
+    <color name="colorToolbar">#ffffff</color>
+    <color name="colorToolbarText">#151515</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_b3">#B3FFFFFF</color>
+    <color name="appbg">#F3F3F3</color>
+    <color name="black">#000000</color>
+    <color name="black70">#70000000</color>
+    <color name="gray">#808080</color>
+    <color name="gray2">#EEEEEE</color>
+    <color name="gray3">#dddddd</color>
+    <color name="gray_cc">#cccccc</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="green2">#00C985</color>
+    <color name="blue">#0000FF</color>
+    <color name="blue2">#0C8FE7</color>
+    <color name="cyan">#97E9EF</color>
+    <color name="blue_419fff">#419fff</color>
+    <color name="purple">#B68DD8</color>
+
+    <color name="red">#ff0004</color>
+    <color name="tint_gray">#cac7c7</color>
+    <color name="tint_gray1">#fff7f7f7</color>
+
+    <color name="line_color">#f4f4f4</color>
+    <color name="color_f7f7f7">#f7f7f7</color>
+    <color name="bg_color">#f4f4f4</color>
+    <color name="text_color666">#666666</color>
+    <color name="text_color333">#333333</color>
+    <color name="text_color999">#999999</color>
+    <color name="text_color_aaa">#AAAAAA</color>
+
+    <color name="video_back">#D6F2FF</color>
+    <color name="place_holder_color">#bfbfbf</color>
+    <color name="tab_select">#2196f3</color>
+    <color name="tab_no_select">#000000</color>
+    <color name="gray_alpha">#aa848e99</color>
+    <color name="gray_deep">#8B8989</color>
+    <color name="blue_alpha">#a214a2f4</color>
+    <color name="top_layout_color_white">#ffffff</color>
+    <color name="top_text_color_black">#000000</color>
+    <color name="center_view_color_blue">#2196f3</color>
+    <color name="popup_bg">#3F000000</color>
+    <color name="black_a70">#A000101b</color>
+
+
+    <color name="color_2C9EFF">#2C9EFF</color>
+    <color name="color_F6FBFF">#F6FBFF</color>
+    <color name="color_FFF6F6">#FFF6F6</color>
+    <color name="color_FF1725">#FF1725</color>
+    <color name="colorAccent">#536DFE</color>
+    <color name="divider">#e6e6e6</color>
+    <color name="ll_bg">#e5e5e5</color>
+    <color name="appBg">#F3F3F3</color>
+    <color name="appBg_white">#F3F3F3</color>
+    <color name="textColor_white">#ffffff</color>
+    <color name="textColor3">#aaaaaa</color>
+    <color name="textColor2">#999999</color>
+    <color name="textColor1">#666666</color>
+    <color name="textColor">#333333</color>
+    <color name="textColor4">#ffd6aa</color>
+    <color name="textRed">#ff4044</color>
+    <color name="textRed2">#FFFF0000</color>
+    <color name="pupcolor">#fff0df</color>
+    <color name="tab_unselect">#999999</color>
+    <color name="bg_btn">#dadada</color>
+    <color name="colorGrey">#aaaaaa</color>
+    <color name="colorLWhite">#F9F9F9</color>
+    <color name="colorBgWhite">#F7F7F7</color>
+    <color name="colorBgWhite1">#52F7F7F7</color>
+    <color name="colorA50f7f7f7">#52F7F7F7</color>
+    <color name="colorError">#ff7e7e</color>
+    <color name="colortext">#333333</color>
+    <color name="colortext1">#666666</color>
+    <color name="colortext2">#999999</color>
+    <color name="colordivider">#c6c6c6</color>
+    <color name="umeng_blue">#0086DC</color>
+    <color name="umeng_white">#ffffff</color>
+    <color name="umeng_black">#000000</color>
+    <color name="umeng_background">#D4E0E5</color>
+    <color name="umeng_text_color">#575A5C</color>
+    <color name="umeng_divide">#C3C6C9</color>
+    <color name="kdTextColor">#808080</color>
+    <color name="colorExamPoint">#479cf3</color>
+
+    <color name="top_left_layout_color_black">#7000101b</color>
+    <color name="top_left_layout_color_black_alpha">#b200101b</color>
+    <color name="top_right_text_color_black">#575e65</color>
+    <color name="top_right_text_color_gray">#ededed</color>
+    <color name="top_sline_color_gray">#cfd9db</color>
+    <color name="center_layout_color_gray">#f9f9f9</color>
+    <color name="center_layout_color_gray_deep">#e9e9e9</color>
+    <color name="center_bottom_text_color_blue">#6ec6ff</color>
+    <color name="center_bottom_text_color_red">#ff6000</color>
+    <color name="center_right_text_color_green">#86cf00</color>
+    <color name="commom_click_color_gray">#e0e0e0</color>
+    <color name="commom_click_color_gray_half">#7fe0e0e0</color>
+    <color name="commom_sline_color_gray">#e9e9e9</color>
+    <color name="commom_dialog_color_gray">#cacaca</color>
+    <color name="bottom_layout_color_blue">#0000ff</color>
+    <color name="center_bottom_sb_pg_color_blue">#14a2f4</color>
+    <!-- b2->a2 -->
+    <color name="center_bottom_sb_pg_color_blue_alpha">#a214a2f4</color>
+    <!-- no use -->
+    <color name="center_bottom_sb_sec_color_blue">#95d5fa</color>
+    <color name="center_bottom_text_color_gray">#848e99</color>
+    <color name="center_right_text_color_black">#2c2f33</color>
+    <color name="center_right_botton_color_purple">#dda0dd</color>
+    <color name="center_left_text_color_gray">#aaaaaa</color>
+    <color name="activity_color_translucence">#80000000</color>
+
+    <!-- 应用主题色 -->
+    <color name="maincolor">#21b38a</color>
+    <color name="maincolordark">#129872</color>
+    <color name="sidebar_letter_normal">#202020</color>
+    <color name="sidebar_letter_pressed">#21b38a</color>
+    <!-- 白色 -->
+    <color name="all_white">#ffffff</color>
+    <!-- 黑色 -->
+    <color name="all_black">#000000</color>
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <!-- 浅灰 -->
+    <color name="lightgrey">#D6D6D6</color>
+    <color name="grey">#8B8989</color>
+    <color name="gray1">#ECECEC</color>
+    <color name="parent_dialog_bg">#EDEDED</color>
+    <color name="startcolor">#21b38a</color>
+    <color name="green_text_color">#FF2CB399</color>
+    <color name="offline_bg">#eeeeee</color>
+    <color name="bottom_et_color_gray">#9e9e9e</color>
+    <color name="top_tv_color_gray">#848e99</color>
+    <color name="left_et_color_gray">#546e7a</color>
+    <color name="top_et_color_gray">#90a4ae</color>
+    <color name="gray_share">#e9e9e9</color>
+    <color name="top_edittext_color_gray">#fafafa</color>
+    <color name="ticket_text_color">#4d4d4d</color>
+    <color name="pk_primary_color">#3d221b</color>
+    <color name="tk_report_tab_color">#ffd3a2</color>
+    <color name="mine_mydownload_item_delete_bg">#F25647</color>
+    <color name="orange">#FE992A</color>
+    <color name="orange_50">#80FE992A</color>
+
+    <!--二维码扫描-->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="result_points">#c099cc00</color>
+
+    <color name="splash_banner_indicator_select">#2997FF</color>
+    <color name="splash_banner_indicator_unselect">#C2D9FF</color>
+
+    <color name="kf_tag_unselect">#666666</color>
+    <color name="kf_hint_view">#FAFAFA</color>
+    <color name="kf_line">#D9D9D9</color>
+
+    <color name="umeng_share_board_content_bg">#ffe9f0f3</color>
+
+    <color name="color_light_red">#ffffe4e4</color>
+    //浅红色背景
+    <color name="color_light_green">#ffe0ffea</color>
+    //浅绿色背景
+    <color name="color_light_violet">#fffbf8fc</color>
+    //浅紫色背景
+
+    <color name="color_guide_bg">#b2000000</color>
+    //指引图背景
+
+    <color name="color_1C1D1D">#1C1D1D</color>
+
+</resources>

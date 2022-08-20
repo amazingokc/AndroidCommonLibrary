@@ -1,0 +1,215 @@
+<resources>
+    <!--<style name="AnimationDialog">-->
+    <!--<item name="android:windowEnterAnimation">@anim/slide_bottom_in</item>-->
+    <!--<item name="android:windowExitAnimation">@anim/slide_bottom_out</item>-->
+    <!--</style>-->
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--<item name="android:windowAnimationStyle">@style/AnimationDialog</item>-->
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
+
+    <style name="CustomProgressDialog_Animation" >
+        <item name="android:windowEnterAnimation">@anim/out_alpha</item>
+        <item name="android:windowExitAnimation">@anim/enter_alpha</item>
+
+    </style>
+
+    <style name="HomeDialog" parent="Theme.AppCompat.Light.Dialog.MinWidth">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--<item name="android:layout_marginBottom">0dp</item>-->
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ToolBarStyle" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="actionMenuTextColor">@android:color/white</item> <!--  颜色-->
+        <item name="android:textSize">15sp</item> <!--  字体大小-->
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ToolBarMenuTextColorStyleBlack" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="actionMenuTextColor">@android:color/black</item> <!--  颜色-->
+    </style>
+
+    <style name="ToolBarMenuTextColorStyleWhite" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="actionMenuTextColor">@android:color/white</item> <!--  颜色-->
+    </style>
+
+    <style name="ToolBarWhiteStyle" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="actionMenuTextColor">@android:color/black</item> <!--  颜色-->
+        <item name="android:textSize">15sp</item> <!--  字体大小-->
+        <item name="android:textStyle">normal</item>
+        <item name="colorControlNormal">@color/black</item><!--返回键按钮颜色-->
+        <item name="android:background">@color/colorToolbar</item>
+    </style>
+
+<!--    <style name="ToolBarOrangeStyle" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">-->
+<!--        <item name="actionMenuTextColor">@android:color/white</item> &lt;!&ndash;  颜色&ndash;&gt;-->
+<!--        <item name="android:textSize">15sp</item> &lt;!&ndash;  字体大小&ndash;&gt;-->
+<!--        <item name="android:textStyle">normal</item>-->
+<!--        <item name="colorControlNormal">@color/white</item>&lt;!&ndash;返回键按钮颜色&ndash;&gt;-->
+<!--        <item name="android:background">@color/colorPrimary_runde</item>-->
+<!--    </style>-->
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:seekBarStyle">@android:style/Widget.SeekBar</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <declare-styleable name="CircleProgressView">
+        <attr name="cpv_progressNormalColor" format="color" />
+        <attr name="cpv_progressReachColor" format="color" />
+        <attr name="cpv_progressTextColor" format="color" />
+        <attr name="cpv_progressTextSize" format="dimension" />
+        <attr name="cpv_progressTextOffset" format="dimension" />
+        <attr name="cpv_progressNormalSize" format="dimension" />
+        <attr name="cpv_progressReachSize" format="dimension" />
+        <attr name="cpv_radius" format="dimension" />
+        <attr name="cpv_progressTextVisible" format="boolean" />
+        <attr name="cpv_progressStartArc" format="integer" />
+        <attr name="cpv_progressTextSkewX" format="dimension" />
+        <attr name="cpv_progressTextPrefix" format="string" />
+        <attr name="cpv_progressTextSuffix" format="string" />
+        <attr name="cpv_innerBackgroundColor" format="color" />
+        <attr name="cpv_progressStyle" format="enum">
+            <enum name="Normal" value="0" />
+            <enum name="FillInner" value="1" />
+            <enum name="FillInnerArc" value="2" />
+        </attr>
+        <attr name="cpv_innerProgressColor" format="color" />
+        <attr name="cpv_innerPadding" format="dimension" />
+        <attr name="cpv_outerColor" format="color" />
+        <attr name="cpv_outerSize" format="dimension" />
+        <attr name="cpv_reachCapRound" format="boolean" />
+    </declare-styleable>
+
+    <style name="base_dialog_fragment_bottom_in_out_animator">
+        <item name="android:windowEnterAnimation">@anim/base_dialog_fragment_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/base_dialog_fragment_bottom_out</item>
+    </style>
+
+    <style name="Widget_GifView" parent="android:style/Theme.Dialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+    </style>
+
+    <declare-styleable name="CustomTheme">
+        <attr name="gifViewStyle" format="reference" />
+    </declare-styleable>
+
+    <!--GIF动画所用-->
+    <declare-styleable name="GifView">
+        <attr name="gif" format="reference" />
+        <attr name="paused" format="boolean" />
+    </declare-styleable>
+
+    <style name="test_tip_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <!--去掉边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--悬浮-->
+        <item name="android:windowIsFloating">true</item>
+        <!--半透明-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--不需要标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--允许模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--全屏幕-->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+<!--    文本一行限制并结尾省略号-->
+    <style name="textStyle_lines_limit">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+<!--    文本颜色值：textColor 字体：14sp  一行限制-->
+    <style name="textStyle_textColor_14sp_limit" parent="textStyle_lines_limit">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <!--    文本颜色值：textColor 字体：14sp  一行限制-->
+    <style name="textStyle_textColor333_20sp_limit" parent="textStyle_lines_limit">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_color333</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--    文本颜色值：textColor 字体：14sp  一行限制-->
+    <style name="textStyle_textColor_17sp_limit" parent="textStyle_lines_limit">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+
+    <!--    文本颜色值：textColor2 字体：12sp  一行限制-->
+    <style name="textStyle_textColor2_12sp_limit" parent="textStyle_lines_limit">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/textColor2</item>
+    </style>
+
+    <!--    文本颜色值：textColor2 字体：12sp  一行限制-->
+    <style name="textStyle_textColor1_12sp">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/textColor1</item>
+    </style>
+
+    <style name="lv_commom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:fastScrollEnabled">false</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:smoothScrollbar">true</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:divider">@android:color/transparent</item>
+    </style>
+
+
+
+    <style name="NoTitleTranslucentTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+</resources>

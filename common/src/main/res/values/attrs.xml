@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PageIndicatorView">
+        <attr name="size" format="dimension" />
+        <attr name="drawable_selected" format="reference" />
+        <attr name="drawable_unselected" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="mRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomSettingLayout">
+        <attr name="custom_is_set_bg" format="boolean" />
+        <attr name="custom_bg_color" format="color" />
+
+        <attr name="custom_is_show_line" format="boolean" />
+        <attr name="custom_line_margin_left" format="dimension" />
+        <attr name="custom_line_margin_right" format="dimension" />
+
+        <attr name="custom_left_title" format="reference|string" />
+        <attr name="custom_right_title" format="reference|string" />
+        <attr name="left_title_color" format="color" />
+        <attr name="right_title_color" format="color" />
+        <attr name="left_title_text_size" format="dimension" />
+        <attr name="right_title_text_size" format="dimension" />
+        <attr name="custom_right_icon_isShow" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+
+</resources>

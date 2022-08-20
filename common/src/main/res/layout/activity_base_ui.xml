@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_base_ui_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <!--标题栏-->
+    <include layout="@layout/base_toolbar" />
+
+    <!--内容区域-->
+    <FrameLayout
+        android:id="@+id/fl_base_ui_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/common_toolbar"
+        tools:ignore="UnknownIdInLayout" />
+
+    <!--    状态页（用于空数据、请求失败等情况显示）-->
+    <FrameLayout
+        android:id="@+id/fl_base_ui_state"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/common_toolbar"
+        android:visibility="gone"
+        tools:ignore="KeyboardInaccessibleWidget,UnknownIdInLayout" />
+
+
+</RelativeLayout>
+
