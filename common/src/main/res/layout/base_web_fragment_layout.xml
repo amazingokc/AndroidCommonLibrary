@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.runde.commonlibrary.customview.TencentWebView
+    <com.core.commonlibrary.customview.TencentWebView
         android:id="@+id/wv_content_resources"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

@@ -396,10 +396,10 @@
 #----------------------------------------------------------------------------
 
 #模块代码
--keep class com.runde.commonlibrary.bean.**{*;}
--keep class com.runde.commonlibrary.communication.** {*;}
--keep class com.runde.commonlibrary.customview.** {*;}
--keep class com.runde.commonlibrary.net.** {*;}
+-keep class com.core.commonlibrary.bean.**{*;}
+-keep class com.core.commonlibrary.communication.** {*;}
+-keep class com.core.commonlibrary.customview.** {*;}
+-keep class com.core.commonlibrary.net.** {*;}
 
 #------------GreenDAO -------------- start
 -keepclassmembers class * extends org.greenrobot.greendao.AbstractDao {

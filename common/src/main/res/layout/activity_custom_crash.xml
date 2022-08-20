@@ -15,7 +15,7 @@
         android:src="@drawable/ic_crash" />
 
     <TextView
-        android:id="@+id/tv_copy_detail_info"
+        android:id="@+id/tvCopyDetailInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -26,7 +26,7 @@
         android:textSize="14dp" />
 
     <TextView
-        android:id="@+id/tv_error_info"
+        android:id="@+id/tvErrorInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
@@ -38,7 +38,7 @@
         tools:text="崩溃信息" />
 
     <TextView
-        android:id="@+id/tv_restart"
+        android:id="@+id/tvRestart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"

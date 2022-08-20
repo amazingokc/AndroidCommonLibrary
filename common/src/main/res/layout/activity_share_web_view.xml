@@ -40,7 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <!--&lt;!&ndash; webview 演示web调用Java &ndash;&gt;-->
-        <com.runde.commonlibrary.customview.TencentWebView
+        <com.core.commonlibrary.customview.TencentWebView
             android:id="@+id/webView"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
